@@ -7,7 +7,6 @@
 import tifffile as tiff
 import datetime
 import matplotlib.pyplot as plt
-import tifffile as tiff
 import numpy as np
 import glob
 from tqdm.notebook import tqdm
