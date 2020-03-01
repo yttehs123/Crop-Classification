@@ -37,7 +37,7 @@ for tile_id, dates in tile_dates.items():
     tile_dates[tile_id] = list(set(tile_dates[tile_id]))
     
     
- selected_tile = list(tile_dates.keys())[0]
+selected_tile = list(tile_dates.keys())[0]
 dates = sorted(tile_dates[selected_tile])
 
 bands = ['B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B8A', 'B09', 'B11', 'B12', 'CLD']
