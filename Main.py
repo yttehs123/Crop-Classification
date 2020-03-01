@@ -19,9 +19,6 @@ def load_file(fp):
     
     return tiff.imread(fp.__str__())
   
- bands = ['B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B8A', 'B09', 'B11', 'B12', 'CLD']
-
-
 #Getting list of dates
 tile_dates = {}
 for f in glob.glob('**/*.tif', recursive=True):
